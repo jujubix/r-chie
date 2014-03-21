@@ -1,0 +1,12 @@
+Package: R4RNA
+Type: Package
+Title: An R package for RNA visualization and analysis
+Version: 0.1.4
+Date: 2012-03-21
+Author: Daniel Lai <jujuibix@cs.ubc.ca>, Jeff Proctor, Irmtraud Meyer <irmtraud.meyer@cantab.net>
+Maintainer: Irmtraud Meyer <irmtraud.meyer@cantab.net>
+Depends: R (>= 2.10.0)
+Description: Plots arc diagrams for RNA secondary structure
+License: GPL-3
+URL: http://www.e-rna.org/r-chie/
+Packaged: 2013-05-17 19:52:00 UTC; jujubix

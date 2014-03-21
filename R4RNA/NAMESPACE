@@ -1,0 +1,73 @@
+export(
+	as.helix,
+	is.helix,
+	
+	blankPlot,
+	maxHeight,
+
+	collapseHelix,
+	expandHelix,
+
+	defaultPalette,
+	colourByValue,
+	colourByCount,	
+	colourByConservation,
+	colourByCovariation,
+	colourByCanonical,
+	colourByBasepairFrequency,
+	colourByUnknottedGroups,
+	
+	unknottedGroups,
+	basepairFrequency,
+
+	alignmentPercentGaps,
+
+	alignmentConservation,
+	alignmentCovariation,
+	alignmentCanonical,
+	
+	helixCovariation,
+	helixConservation,
+	helixCanonical,
+	
+	basepairCovariation,
+	basepairConservation,
+	basepairCanonical,
+	
+	baseConservation,
+	
+	isConflictingHelix,
+	isDuplicatingHelix,
+	isOverlappingHelix,
+
+	plotCovariance,
+	plotDoubleCovariance,
+	plotOverlapCovariance,
+	
+	plotArc,
+	plotArcs,
+	plotHelix,
+	plotDoubleHelix,
+	plotOverlapHelix,
+
+	readFasta,
+
+	readConnect,
+	readHelix,
+	readVienna,
+	readBpseq,
+
+	viennaToHelix,
+	helixToVienna,
+	helixToBpseq,
+	helixToConnect,
+	
+	writeFasta,
+	writeHelix,
+
+	logseq,
+	logceiling,
+	logfloor,
+
+	structureMismatchScore
+)

@@ -1,0 +1,36 @@
+NEWS/CHANGELOG
+
+R4RNA_0.1.5 In Progress... (Daniel Lai <jujubix {at} cs.ubc.ca>)
+- colourByValue handles single value and empty helix cases
+
+R4RNA_0.1.4.tar.gz 2012-03-21 (Daniel Lai <jujubix {at} cs.ubc.ca>)
+- Addition of structureMismatchScore and sequencePercentGaps
+- Added "pad" parameter for specifying padding in blankPlot
+- Added "no.par" option to blankPlot, to allow for par(mfrow = ...), etc
+- Replaced conflict.filter for conflict.col and conflict.lty in plotCovariance
+- Fixed bug in collapseHelix
+
+R4RNA_0.1.3.tar.gz 2012-02-16 (Daniel Lai <jujubix [at] cs.ubc.ca>)
+- Updated vignette, obtained via vignette("R4RNA")
+
+R4RNA_0.1.2.tar.gz 2012-02-15 (Daniel Lai <jujubix [at] cs.ubc.ca>)
+- Improved colourBy functions (default arguments + get option)
+- Addition of basepairFrequency and colourByBasepairFrequency
+- Addition of log space operations, logseq, logfloor, logceiling
+- Updated examples in manual to reflect changes
+
+R4RNA_0.1.1.tar.gz 2012-02-14 (Daniel Lai <jujubix [at] cs.ubc.ca>)
+- Package revised for publication in NAR Method Online
+- Functions streamlined for improved user experience
+- Addition of various "ColourBy" functions
+- Addition of alignment statistics functions
+- File reading functions made robust and able to handle multiple entries
+- Various format conversion functions to and from helix
+- Addition of plotDoubleCovariance and plotOverlapCovariance functions
+- Addition of a lot of fine-tuning paramters for plotCovariance
+- Expanded role and functionality of blankPlot
+	- Allows for direct output as png or pdf files
+- Improved and expanded documentation
+
+R4RNA_0.1.0.tar.gz 2011-12-16 (Daniel Lai <jujubix [at] cs.ubc.ca>)
+- Initial public release
